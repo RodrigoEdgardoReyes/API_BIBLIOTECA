@@ -23,7 +23,7 @@ export class LibrosService {
       // Mensaje de exito al agregar un nuevo libro
       return {
         ok: true,
-        message: 'Libro creado con exito',
+        message: 'Libro creado con exito.',
         status: 201,
       };
     } catch (error) {
