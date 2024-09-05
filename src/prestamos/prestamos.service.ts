@@ -28,7 +28,7 @@ export class PrestamosService {
     } catch (error) {
       return {
         ok: false,
-        message: 'Ocurrio un error al guardar el prestamo',
+        message: 'Ocurrio un error al guardar el prestam.',
         status: 500,
       };
     }
