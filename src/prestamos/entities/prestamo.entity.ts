@@ -1,7 +1,7 @@
 import { Libro } from 'src/libros/entities/libro.entity';
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 
-// Entidad prestamo
+// Entidad prestamo.
 @Entity()
 export class Prestamo {
   @PrimaryGeneratedColumn()
