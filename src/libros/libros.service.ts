@@ -15,7 +15,7 @@ export class LibrosService {
   // Metodo crear.
   async create(createLibroDto: CreateLibroDto) {
     try {
-      // Creo un nuevo registro de libro
+      // Creo un nuevo registro de libro.
       const libro = this.libroRepository.create(createLibroDto)
       // lo guardo en la base de datos
       await this.libroRepository.save(libro);
