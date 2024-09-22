@@ -1,2 +1,1 @@
-// falta
 export class CreateLibroDto {}
