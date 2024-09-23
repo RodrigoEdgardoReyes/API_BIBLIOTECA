@@ -3,7 +3,7 @@ import { LibrosService } from './libros.service';
 import { CreateLibroDto } from './dto/create-libro.dto';
 import { UpdateLibroDto } from './dto/update-libro.dto';
 
-// Controlador de libros.
+// Controlador de libros..
 @Controller('libros')
 export class LibrosController {
   constructor(private readonly librosService: LibrosService) {}
