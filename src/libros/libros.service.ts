@@ -12,7 +12,7 @@ export class LibrosService {
     @InjectRepository(Libro) private readonly libroRepository: Repository<Libro>,
   ) { }
 
-  // Metodo crear..
+  // Metodo crear.
   async create(createLibroDto: CreateLibroDto) {
     try {
       // Creo un nuevo registro de libro.
