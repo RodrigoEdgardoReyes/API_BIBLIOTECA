@@ -4,7 +4,7 @@ import { PrestamosController } from './prestamos.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Prestamo } from './entities/prestamo.entity';
 
-// Modulo de prestamos..
+// Modulo de prestamos.
 @Module({
   imports: [TypeOrmModule.forFeature([Prestamo])],
   controllers: [PrestamosController],
