@@ -3,7 +3,6 @@ import { PrestamosService } from './prestamos.service';
 import { CreatePrestamoDto } from './dto/create-prestamo.dto';
 import { UpdatePrestamoDto } from './dto/update-prestamo.dto';
 
-// Controlador de prestamos
 @Controller('prestamos')
 export class PrestamosController {
   constructor(private readonly prestamosService: PrestamosService) {}
