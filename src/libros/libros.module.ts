@@ -4,7 +4,6 @@ import { LibrosController } from './libros.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Libro } from './entities/libro.entity';
 
-// Modulo de libros..
 @Module({
   imports: [TypeOrmModule.forFeature([Libro])],
   controllers: [LibrosController],
