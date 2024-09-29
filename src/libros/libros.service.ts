@@ -30,7 +30,7 @@ export class LibrosService {
       // Mensaje de error si no se guardo el registro del libro
       return{
         ok: false,
-        message: 'Ocurrio un error al guardar el libro',
+        message: 'Ocurrio un error al guardar el libro.',
         status: 500,
       }
     }
