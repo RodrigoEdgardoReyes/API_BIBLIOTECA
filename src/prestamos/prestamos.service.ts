@@ -40,7 +40,7 @@ export class PrestamosService {
       // // Verifico si prestamos esta activo
       // const prestamo = await this.prestamoRepository.find({where: { isActive: true } });
 
-// Verifico si prestamos están activos y los incluyo junto con los libros relacionados
+// Verifico si prestamos están activos y los incluyo junto con los libros relacionados.
 const prestamo = await this.prestamoRepository.find({
   where: { isActive: true },
   relations: ['libro'], // Incluir la relación con el modelo Libro
