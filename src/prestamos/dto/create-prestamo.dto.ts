@@ -1,2 +1,1 @@
-// Falta
 export class CreatePrestamoDto {}
