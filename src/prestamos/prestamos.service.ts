@@ -67,6 +67,7 @@ const prestamo = await this.prestamoRepository.find({
     }
   }
 
+  // Metodo buscar prestamo por id
   findOne(id: number) {
     return `This action returns a #${id} prestamo`;
   }
