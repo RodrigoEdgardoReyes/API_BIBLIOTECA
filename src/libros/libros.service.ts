@@ -64,6 +64,7 @@ export class LibrosService {
     }
   }
 
+  // Buscar libro por id
   findOne(id: number) {
     return `This action returns a #${id} libro`;
   }
