@@ -5,7 +5,7 @@ import { LibrosModule } from './libros/libros.module';
 import { PrestamosModule } from './prestamos/prestamos.module';
 
 @Module({
-  imports: [
+  imports:  [
     ConfigModule.forRoot({ isGlobal: true }),
     TypeOrmModule.forRoot({
       type: 'mysql',
