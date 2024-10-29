@@ -72,6 +72,7 @@ const prestamo = await this.prestamoRepository.find({
     return `This action returns a #${id} prestamo`;
   }
 
+  // Actualizar prestamo
   update(id: number, updatePrestamoDto: UpdatePrestamoDto) {
     return `This action updates a #${id} prestamo`;
   }
