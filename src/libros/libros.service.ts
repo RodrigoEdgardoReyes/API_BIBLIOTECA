@@ -69,6 +69,7 @@ export class LibrosService {
     return `This action returns a #${id} libro`;
   }
 
+  // Actualizar libro
   update(id: number, updateLibroDto: UpdateLibroDto) {
     return `This action updates a #${id} libro`;
   }
