@@ -1,2 +1,4 @@
 
-export class CreateLibroDto {}
+export class CreateLibroDto {
+    
+}
