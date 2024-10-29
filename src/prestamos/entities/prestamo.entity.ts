@@ -2,7 +2,7 @@ import { Libro } from 'src/libros/entities/libro.entity';
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 
 // Entidad prestamo
-@Entity()
+@Entity('prestamo')
 export class Prestamo {
   @PrimaryGeneratedColumn()
   id: number;
@@ -26,5 +26,5 @@ export class Prestamo {
   correo: string;
 
   @Column({ default: true })
-isActive: boolean;
+  isActive: boolean;
 }
