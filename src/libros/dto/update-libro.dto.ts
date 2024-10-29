@@ -1,2 +1,4 @@
 
-export class UpdateLibroDto {}
+export class UpdateLibroDto {
+    
+}
