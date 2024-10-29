@@ -1,2 +1,4 @@
 
-export class UpdatePrestamoDto{}
+export class UpdatePrestamoDto{
+    
+}
