@@ -77,6 +77,7 @@ const prestamo = await this.prestamoRepository.find({
     return `This action updates a #${id} prestamo`;
   }
 
+  // Eliminar Prestamo
   remove(id: number) {
     return `This action removes a #${id} prestamo`;
   }
