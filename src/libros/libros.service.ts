@@ -74,6 +74,7 @@ export class LibrosService {
     return `This action updates a #${id} libro`;
   }
 
+  // Eliminar Libro
   remove(id: number) {
     return `This action removes a #${id} libro`;
   }
