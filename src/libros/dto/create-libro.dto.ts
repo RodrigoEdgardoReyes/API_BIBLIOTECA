@@ -2,7 +2,7 @@
 export class CreateLibroDto {
     titulo: string;
 
-
+ 
     autor: string;
 
 
