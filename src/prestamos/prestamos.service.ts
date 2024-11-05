@@ -11,7 +11,7 @@ export class PrestamosService {
     @InjectRepository(Prestamo) private readonly prestamoRepository: Repository<Prestamo>,
   ) { }
 
-//  Crear prestamo.
+//  Crear prestamo. 
   async create(createPrestamoDto: CreatePrestamoDto) {
     try {
       const pres = new Prestamo();
