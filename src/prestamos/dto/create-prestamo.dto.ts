@@ -3,7 +3,7 @@ export class CreatePrestamoDto {
 
     nombre: string;
 
-
+    
     libro: number;
 
 
