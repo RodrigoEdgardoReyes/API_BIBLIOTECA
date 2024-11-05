@@ -4,7 +4,7 @@ export class UpdateLibroDto {
 
 
     autor: string;
-
+ 
 
     anoEdicion: number;
 
