@@ -9,5 +9,5 @@ import { Libro } from 'src/libros/entities/libro.entity';
   imports: [TypeOrmModule.forFeature([Prestamo, Libro])],
   controllers: [PrestamosController],
   providers: [PrestamosService],
-})
+}) 
 export class PrestamosModule {}
