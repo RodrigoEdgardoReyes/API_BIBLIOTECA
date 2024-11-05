@@ -8,7 +8,7 @@ export class UpdatePrestamoDto {
 
     fechaPrestamo: Date;
 
-
+ 
     fechaDevolucion: Date;
 
 
