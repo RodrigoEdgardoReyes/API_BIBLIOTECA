@@ -4,7 +4,7 @@ export class CreatePrestamoDto {
     nombre: string;
 
     
-    libro: number;
+    libro: number; 
 
 
     fechaPrestamo: Date;
