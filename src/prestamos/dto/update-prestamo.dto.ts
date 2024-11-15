@@ -3,7 +3,7 @@ export class UpdatePrestamoDto {
     nombre: string;
 
 
-    libro: number;
+    libro: number; 
 
 
     fechaPrestamo: Date;
