@@ -5,7 +5,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 @Entity('prestamo')
 export class Prestamo {
   @PrimaryGeneratedColumn()
-  id: number;
+  id: number; 
 
   @Column()
   nombre: string;
